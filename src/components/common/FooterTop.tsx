@@ -136,86 +136,77 @@ export function FooterTop() {
             data-animation="fadeInUp"
             data-animation-delay="0.5s"
           >
-            <h6 className="widget_title">꿈에그린 사진</h6>
+            <h6 className="widget_title">클라이언트 방문 수거</h6>
             <ul className="list_none instafeed">
               <li>
-                <a href="#">
-                  <img src="/img/photo.jpg" />
+                <a href="/">
+                  <img src="/img/1.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>10</span>
+                    <span>청담스퀘어</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img2.jpg" />
+                <a href="/">
+                  <img src="/img/2.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>42</span>
+                    <span>페럼타워</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img3.jpg" />
+                <a href="/">
+                  <img src="/img/3.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>55</span>
+                    <span>페럼타워</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img4.jpg" />
+                <a href="/">
+                  <img src="/img/4.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>20</span>
+                    <span>페럼타워</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img5.jpg" />
+                <a href="/">
+                  <img src="/img/5.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>18</span>
+                    <span>페럼타워</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img6.jpg" />
+                <a href="/">
+                  <img src="/img/6.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>15</span>
+                    <span>페럼타워</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img7.jpg" />
+                <a href="/">
+                  <img src="/img/7.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>03</span>
+                    <span>페럼타워</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img8.jpg" />
+                <a href="/">
+                  <img src="/img/8.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>07</span>
+                    <span>청담스퀘어</span>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <img src="assets/images/insta_img9.jpg" />
+                <a href="/">
+                  <img src="/img/9.jpeg" />
                   <span className="insta_counter">
-                    <i className="ti-heart"></i>
-                    <span>05</span>
+                    <span>페럼타워</span>
                   </span>
                 </a>
               </li>
