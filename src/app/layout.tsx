@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { Header } from '@/components/common/Header';
-import { Footer } from '@/components/common/Footer';
+import { Header } from '@/components/common/header/Header';
+import { Footer } from '@/components/common/footer/Footer';
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: '(주)꿈에그린환경에 오신 걸 환영합니다',
-  description: '꿈에그린환경 공식 홈페이지입니다.',
+  description: '꿈에그린환경, 폐기물 수거, 폐기물 관리, 폐기물 업체',
 };
 
 export default function RootLayout({
@@ -70,6 +70,7 @@ export default function RootLayout({
         <Script src="assets/js/isotope.min.js" />
         <Script src="assets/js/jquery.elevatezoom.js" />
         <Script src="assets/js/scripts.js" />
+        <Script src="assets/js/vanilla-tilt.babel.min.js" />
       </body>
     </html>
   );
