@@ -6,16 +6,17 @@ export function TermBody() {
       </p>
       <p className="text-dark mb-1">✅ 제1조 [목적]</p>
       <p className="text-dark">
-        &nbsp;&nbsp;본 약관은 (주)꿈에그린환경(이하 '회사')가 이용고객(이하
-        '회원') 간에 회사가 제공하는 서비스의 조건 및 이용관련 권리·의무 및
-        책임사항 등을 규정함을 목적으로 합니다.
+        &nbsp;&nbsp;본 약관은 (주)꿈에그린환경(이하 &apos;회사&apos;)가
+        이용고객(이하 &apos;회원&apos;) 간에 회사가 제공하는 서비스의 조건 및
+        이용관련 권리·의무 및 책임사항 등을 규정함을 목적으로 합니다.
       </p>
       <p className="text-dark mb-1">✅ 제2조 [정의]</p>
       <p className="text-dark">
         &nbsp;&nbsp;① 본 약관에서 사용하는 용어의 정의는 다음과 같습니다.
         <br />
-        &nbsp;&nbsp;&nbsp;1. "이용자"라 함은 "회사"의 웹사이트에 접속하여 본
-        약관에 따라 "회사"가 제공하는 "서비스"를 이용하는 "회원"을 말한다.
+        &nbsp;&nbsp;&nbsp;1. &quot;이용자&quot;라 함은 &quot;회사&quot;의
+        웹사이트에 접속하여 본 약관에 따라 &quot;회사&quot;가 제공하는
+        &quot;서비스&quot;를 이용하는 &quot;회원&quot;을 말한다.
         <br />
         작성 중...
       </p>

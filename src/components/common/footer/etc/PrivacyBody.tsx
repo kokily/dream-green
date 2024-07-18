@@ -186,7 +186,7 @@ export function PrivacyBody() {
       <p className="text-dark mb-1">
         ① 본 홈페이지는 이용자에게 개별적인 맞춤 서비스를 제공하기 위해
         이용정보를 저장하고 수시로 불러오는{' '}
-        <b className="text-warning">'쿠키(cookie)'</b>를 사용합니다.
+        <b className="text-warning">&apos;쿠키(cookie)&apos;</b>를 사용합니다.
       </p>
       <p className="text-dark mb-1">
         ② 쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터
