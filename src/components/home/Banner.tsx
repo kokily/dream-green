@@ -4,7 +4,7 @@ export function Banner() {
       className="banner_section background_bg"
       data-img-src="/img/banner.jpg"
       style={{
-        background: 'url(/img/banner.jpg) center center / cover; ',
+        background: 'url(/img/banner.jpg) center center / cover',
         height: '400px',
       }}
     >

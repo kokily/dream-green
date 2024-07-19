@@ -6,9 +6,17 @@ import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
+// Meta
+const title = '(주)꿈에그린환경';
+const description = '꿈에그린환경, 폐기물 수거, 폐기물 관리, 폐기물 업체';
+
 export const metadata: Metadata = {
-  title: '(주)꿈에그린환경에 오신 걸 환영합니다',
-  description: '꿈에그린환경, 폐기물 수거, 폐기물 관리, 폐기물 업체',
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({
