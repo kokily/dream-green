@@ -1,3 +1,5 @@
+'use client';
+
 import { HeaderTop } from './HeaderTop';
 import { Navigation } from './nav/Navigation';
 

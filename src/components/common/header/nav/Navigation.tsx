@@ -5,7 +5,7 @@ import { NavsList } from './NavsList';
 
 export function Navigation() {
   return (
-    <div className="container">
+    <div className="container nav-fixed">
       <nav className="navbar navbar-expand-lg">
         <Link className="navbar-brand" href="/">
           <img className="logo_dark" src="/img/logo01.png" alt="logo" />

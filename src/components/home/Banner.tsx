@@ -1,4 +1,16 @@
+'use client';
+
+import { useTilt } from '@/helpers/hooks/useTilt';
+import { useEffect } from 'react';
+
 export function Banner() {
+  useTilt('.banner_content');
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = '/img/banner.jpg';
+  }, []);
+
   return (
     <section
       className="banner_section background_bg"
@@ -14,21 +26,13 @@ export function Banner() {
             <div className="col-md-6 col-sm-9 col-10 text-center">
               <div
                 className="banner_content border_shape text_white"
-                data-tilt=""
-                data-tilt-speed="400"
-                data-tilt-perspective="500"
-                style={{
-                  willChange: 'transform',
-                  transform:
-                    'perspective(500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)',
-                }}
               >
                 <h2
                   className="animation animated fadeInDown"
                   data-animation="fadeInDown"
-                  data-animation-delay="1s"
+                  data-animation-delay="0.5s"
                   style={{
-                    animationDelay: '1s',
+                    animationDelay: '0.5s',
                     opacity: '1',
                   }}
                 >
