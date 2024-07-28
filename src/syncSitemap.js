@@ -54,7 +54,7 @@ async function makeSitemap() {
     const formattedIndexSitemap = await formatting(generateIndexSitemap);
 
     fs.writeFileSync(
-      `${process.cwd()}/src/app/sitemap.xml`,
+      `${process.cwd()}/public/sitemap.xml`,
       formattedIndexSitemap,
       'utf-8',
     );
