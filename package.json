@@ -2,6 +2,9 @@
   "name": "dream-green",
   "version": "0.1.0",
   "private": true,
+  "prisma": {
+    "seed": "node --require esbuild-register prisma/seed.ts"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,24 +13,38 @@
     "sitemap": "node src/syncSitemap.js"
   },
   "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "@tanstack/react-query": "^5.51.21",
+    "axios": "^1.7.3",
+    "bcryptjs": "^2.4.3",
     "bootstrap": "^5.3.3",
     "clsx": "^2.1.1",
+    "esbuild": "^0.23.0",
+    "jsonwebtoken": "^9.0.2",
     "next": "14.2.4",
+    "next-auth": "^4.24.7",
+    "nodemailer": "^6.9.14",
     "parallax-js": "^3.1.0",
     "prettier": "^3.3.3",
     "react": "^18",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18",
+    "react-toastify": "^10.0.5",
     "sass": "^1.77.6",
     "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.15",
     "@types/parallax-js": "^3.1.3",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "esbuild-register": "^3.6.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+    "prisma": "^5.17.0",
     "typescript": "^5",
     "typescript-plugin-css-modules": "^5.1.0"
   }

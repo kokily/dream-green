@@ -5,7 +5,6 @@ export function About() {
   return (
     <>
       <Ceo />
-      <AboutUs />
     </>
   );
 }

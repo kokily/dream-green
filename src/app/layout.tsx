@@ -3,6 +3,10 @@ import { Inter } from 'next/font/google';
 import { Header } from '@/components/common/header/Header';
 import { Footer } from '@/components/common/footer/Footer';
 import Script from 'next/script';
+import SessionWrapper from '@/helpers/wrapper/SessionWrapper';
+import QueryWrapper from '@/helpers/wrapper/QueryWrapper';
+import ToastWrapper from '@/helpers/wrapper/ToastWrapper';
+import 'react-toastify/ReactToastify.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -66,9 +70,14 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <Header />
-        {children}
-        <Footer />
+        <SessionWrapper>
+          <QueryWrapper>
+            <Header />
+            {children}
+            <Footer />
+            <ToastWrapper />
+          </QueryWrapper>
+        </SessionWrapper>
 
         <Script src="assets/js/jquery-1.12.4.min.js" />
         <Script src="assets/js/jquery-ui.js" />
