@@ -1,0 +1,19 @@
+.tag_container {
+  cursor: pointer;
+  color: #6799ff;
+  transition: 0.2s all;
+
+  &:hover {
+    color: #f15f5f;
+  }
+
+  &+& {
+    margin-left: 1.5rem;
+  }
+}
+
+.tags_list_container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.2rem;
+}

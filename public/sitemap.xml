@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http:www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+  <url>
+    <loc>https://dreamgreen.co.kr/</loc>
+    <lastmod>2024-09-03T10:43:29.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dreamgreen.co.kr/about</loc>
+    <lastmod>2024-09-03T10:43:29.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dreamgreen.co.kr/blog</loc>
+    <lastmod>2024-09-03T10:43:29.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dreamgreen.co.kr/money</loc>
+    <lastmod>2024-09-03T10:43:29.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dreamgreen.co.kr/question</loc>
+    <lastmod>2024-09-03T10:43:29.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://dreamgreen.co.kr/works</loc>
+    <lastmod>2024-09-03T10:43:29.039Z</lastmod>
+  </url>
+
+  <url>
+    <loc
+      >https://dreamgreen.co.kr/blog/read/d050e1b2-78cf-448a-94fa-72bd0f732394</loc
+    >
+    <lastmod>2024-09-03T10:43:29.039Z</lastmod>
+  </url>
+</urlset>
