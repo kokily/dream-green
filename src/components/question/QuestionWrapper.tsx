@@ -34,15 +34,12 @@ export function QuestionWrapper({
     <>
       <QuestionTitle />
 
-      <ListQuestions
-        questions={questions}
-        search={search}
-        onChangeSearch={onChangeSearch}
-        onSearch={onSearch}
-        onReadQuestion={onReadQuestion}
-        setTarget={setTarget}
+      <Contact
+        email={email}
+        body={body}
+        onChange={onChange}
+        onSendMail={onSendMail}
       />
-
       <KakaoMap />
     </>
   );
